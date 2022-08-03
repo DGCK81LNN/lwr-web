@@ -59,7 +59,7 @@ try {
 function sts(s) {
   let r = ""
   for (let c of s) {
-    let p = c.charCodeAt(0)
+    let p = c.codePointAt(0)
     let t = p >> 1
     t |= t >> 16
     t |= t >> 2

@@ -313,7 +313,7 @@ function choose(xel) {
 
   const chooseWrapEl = mainEl.appendChild(document.createElement("div"))
   chooseWrapEl.className = "card mb-3"
-  const chooseEl = chooseWrapEl.appendChild(document.createElement("div"))
+  const chooseEl = chooseWrapEl.appendChild(document.createElement("fieldset"))
   chooseEl.className = "choose card-body"
 
   const choicesEl = chooseEl.appendChild(document.createElement("div"))
